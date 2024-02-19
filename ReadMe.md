@@ -10,6 +10,10 @@ pip install rouge
 
 install java (for evaluating ROUGE using package)
 
+## Finetuned Model, code and dataset
+
+Download the finetuned Model, code and dataset from drive: https://drive.google.com/drive/folders/1X2pWfIfqZhC_EVNM08GetbrhAJHWduzH?usp=sharing
+
 ## Initial code setup
 
 Setting Up Google Drive
