@@ -36,3 +36,5 @@ run  command in v1.2.2: java -jar rouge2-1.2.2.jar.
 
 This will generate results.csv in v1.2.2, do similarly for system2 summaries as well.
 
+## Pipeline code 
+https://drive.google.com/drive/u/0/folders/1a0xs2V2okCuznWO3bhkJztky2mI3bi50
