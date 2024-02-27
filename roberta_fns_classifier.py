@@ -298,7 +298,8 @@ def generate_summaries_roberta(test_data_path):
 
         # Calculate the rolling sum of the product over 4 consecutive rows
         subset_df['Rolling_Sum'] = subset_df['Predicted_Label*Confidence_Score'].rolling(window=4).sum()
-
+        # Replace NaN values in the rolling sum with 0
+        subset_df['Rolling_Sum'] = subset_df['Rolling_Sum'].fillna(0)
         # Find the starting index of the 4-row window with the maximum sum
         start_index = subset_df['Rolling_Sum'].idxmax()
         summary_file_path = subset_df['Summary_File_Path'].unique()[0]
